@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".Main2Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txt"
+            android:text="text"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TextView>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/txt"
+        android:padding="10dp"
+
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="PREV"
+            android:id="@+id/prevbtn"
+            android:background="#4fAAAb"
+            android:layout_marginRight="1dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Copy"
+            android:id="@+id/copybtn"
+            android:background="#4fAAAb"
+            android:layout_marginRight="1dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Share"
+            android:id="@+id/sharebutton"
+            android:background="#4fAAAb"
+            android:layout_marginLeft="1dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="NEXT"
+            android:id="@+id/nextbtn"
+            android:background="#4fAAAb"
+            android:layout_marginRight="1dp"
+            android:layout_marginLeft="1dp"/>
+
+    </TableRow>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
